@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>JavaScript alapok 2</title>
+        <meta charset="UTF-8">
+        <link href="css/stilus.css" rel="stylesheet" title="alap stilus">
+        <script type = "text/javascript" src = "js/elemek.js"></script>
+    </head>
+    <body>
+        <h1>DOM gyakorlás</h1>
+        <h2>Űrlapok</h2>
+        <!-- Ide HF kerül a metódusokról -->
+        <form>
+            <label>e-mail cím</label>
+            <input type="text" id="email"><br>
+            <label>éjszakák száma:</label>
+            <input type="number" id="ejszakaDb"><br>
+            <label>tagság</label>
+            <input type="checkbox" id="tagsag" value="tag"><br>
+            <label>Ellátás: </label><br>
+            <input type="radio" id="nelkul" name="ellatas" value="nelkul"><label>Ellátás nélkül</label>
+            <input type="radio" id="felpanzio" name="ellatas" value="felpanzio"><label>Félpanzió</label>
+            <input type="radio" id="teljes" name="ellatas" value="teljes" checked="checked"><label>teljes ellátás</label><br>
+            <input id="koltsegSzamol" type="button" value="Költség">
+        </form>
+        <p>
+            Üdvözlünk a konferencián kedves <span id="emailEredmeny"></span>!<br>
+            A konferencia díja <span id="fizetendo">0</span> Ft.
+        </p>
+        <h2>Stílusok manipulálása</h2>
+       <div id="doboz">
+        <script>megrajzol();</script>
+           <!--
+           <div id="r1c1" class="cella">A</div>
+           <div class="cella">B</div>
+           <div class="cella">C</div>
+           <!-- 
+           <div class="cella">D</div>
+           <div class="cella">E</div>
+           <div class="cella">F</div>
+           <!-- 
+           <div class="cella">G</div>
+           <div class="cella">H</div>
+           <div class="cella">I</div>-->
+       </div>
+      
+
+        <h2>Elemek elérése</h2>
+        
+           
+        <script type = "text/javascript" src = "js/konferencia.js"></script>
+        <script type = "text/javascript" src = "js/dom.js"></script>
+    </body>
+        
+</html>

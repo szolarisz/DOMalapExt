@@ -1,0 +1,31 @@
+h1 {
+    color: crimson;
+    background-color: #fff;
+}
+
+h2 {
+    color : lime ;
+}
+
+#doboz{
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+}
+
+.cella{
+    background-color: aquamarine;
+    border: 1px solid crimson;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cella:nth-child(2n) {
+    background-color: beige;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>JavaScript alapok 2</title>
+    <meta charset="UTF-8">
+    <link href="css/szinek.css" rel="stylesheet" title="alap stilus">
+
+</head>
+
+<body>
+    <h1>Szín konvertáló</h1>
+
+    <div id="sor">
+        <div id="bal" class="doboz">
+            <form>
+                <label for="voros">Vörös:</label>
+                <input type="number" id="voros" value="0"><br>
+                <label for="zold">Zöld:</label>
+                <input type="number" id="zold" value="0"><br>
+                <label for="kek">Kék:</label>
+                <input type="number" id="kek" value="0"><br>
+                <input id="toHex" type="button" value="Hexa érték">
+            </form>
+        </div>
+        <div id="jobb" class="doboz">
+            <form>
+                <label for="hexa">Hexa:</label>
+                <input type="string" id="hexa" value="#000"><br>
+                <input id="toRGB" type="button" value="RGB érték">
+            </form>
+        </div>
+    </div>
+    <p id="eredmeny">Eredmény:</p>
+    <div id="teszt"></div>
+    <script type="text/javascript" src="js/szinek.js"></script>
+</body>
+
+</html>
